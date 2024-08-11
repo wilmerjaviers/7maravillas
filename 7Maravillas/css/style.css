@@ -1,0 +1,52 @@
+
+
+.carousel-inner .carouse-item{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+
+#tarjetas2 .card .card-img-top{
+    height: 450px !important;
+    
+}
+
+#tarjetas .card .card-img-top{
+    height:115px !important;
+}
+
+#dosFotos .fotos{
+    height: 350px !important;
+}
+
+#cuatroFotos .fotos{
+    height: 150px !important;
+}
+.my-fixed-top{
+    position: fixed;
+    top: auto !important;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.slider-top{
+    margin-top: 10% !important;
+}
+/*0px a 650px*/
+
+@media(max-width:650px){
+    .my-fixed-top{
+        position: fixed;
+        top: 15% !important;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .slider-top{
+        margin-top: 15% !important;
+    }
+    
+}
